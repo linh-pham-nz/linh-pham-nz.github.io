@@ -1,1 +1,1 @@
-# linh-pham-nz.github.io
+Welcome to my blog repository!
