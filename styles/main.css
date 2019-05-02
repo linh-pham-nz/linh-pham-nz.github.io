@@ -1,3 +1,9 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-position: center;    
+}
+
+
 img {
     width: 30%;
     float: left;
