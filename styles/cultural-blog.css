@@ -1,0 +1,69 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#cultural-background {
+    background: url(http://source.unsplash.com/JF4o7WErDn8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#technical-background {
+    background: url(http://source.unsplash.com/FO7JIlwjOtU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#about-me-background {
+    background: url(http://source.unsplash.com/C9k1LfbM23M);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0px 100px 0px 100px;
+    padding: 20px 20px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 700;  
+    margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.center-div {
+    text-align: center;
+    padding: 0;
+}
+
+.home-button {
+    align-self: center;
+    border: 0;
+    padding: 10px 10px;
+    margin: 20px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.4)
+}
