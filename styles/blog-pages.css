@@ -1,8 +1,4 @@
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 500px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
@@ -50,13 +46,8 @@ h2 {
     margin: 0px;
 }
 
-.center-div {
-    text-align: center;
-    padding: 0;
-}
-
 .home-button {
-    align-self: center;
+    display: block;
     border: 0;
     padding: 10px 10px;
     margin: 20px auto;
@@ -67,3 +58,11 @@ h2 {
     color: white;
     background-color:  rgba(0, 0, 0, 0.4)
 }
+
+#box-model {
+    height: 300px;
+    margin: 25px;
+    float: right;
+}
+
+

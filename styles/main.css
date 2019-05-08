@@ -1,5 +1,5 @@
 body {
-    background: url(http://source.unsplash.com/Kwi60PbAM9I);
+    background: url(http://source.unsplash.com/Q_RBVFFXR_g);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 100px;
 }
 
 h1 {
@@ -17,6 +17,21 @@ h1 {
     font-size: 5em;
     font-weight: 800;  
     margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 10px 0px 10px 0px;
+}
+
+ul {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
 }
 
 a {
@@ -27,21 +42,28 @@ a:visited {
     color: white;
 }
 
-ul {
-    text-align: center;
-    font-size: 3em;
-    font-weight: 700;
-    list-style: none;
-}
-
-li {
-    background: rgba(0, 0, 0, 0.4);
-}
-
-footer {
+#column-center {
+    width: 48%;
+    margin: auto;
+    background: url(http://source.unsplash.com/C9k1LfbM23M);
+    float: center;
     text-align: center;
 }
 
-img {
-
+#column-right {
+    width: 48%;
+    height: 350px;
+    margin: auto;
+    background: url(http://source.unsplash.com/JF4o7WErDn8);
+    float: right;
 }
+
+#column-left {
+    width: 48%;
+    height: 350px;
+    margin: auto;
+    background: url(http://source.unsplash.com/FO7JIlwjOtU);
+    float: left;
+}
+
+
