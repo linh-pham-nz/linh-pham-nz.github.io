@@ -65,4 +65,21 @@ h2 {
     float: right;
 }
 
+#DOM {
+    padding: 5px;
+    height: 300px;
+    border: solid; 2px; white;
+    margin: 10px;
+    float: right;
+    background-color:  rgba(0, 0, 0, 0.4)
+}
 
+#DOM2 {
+    display: block;
+    margin: auto
+}
+
+#arrays {
+    margin: 10px;
+    float: right;
+}
