@@ -46,6 +46,14 @@ h2 {
     margin: 0px;
 }
 
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 .home-button {
     display: block;
     border: 0;
