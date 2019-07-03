@@ -54,6 +54,10 @@ a:visited {
     color: white;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .home-button {
     display: block;
     border: 0;
