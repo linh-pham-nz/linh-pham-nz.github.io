@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-    margin: 0px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1 {
@@ -43,18 +44,19 @@ a:visited {
     color: white;
 }
 
-#column-center {
-    width: 48%;
-    margin: auto;
-    background: url(http://source.unsplash.com/C9k1LfbM23M);
-    float: center;
+.h2-large {
     text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 100px 0px 10px 0px;
 }
 
 #column-right {
     width: 48%;
     height: 350px;
-    margin: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
     background: url(http://source.unsplash.com/JF4o7WErDn8);
     float: right;
 }
@@ -62,9 +64,31 @@ a:visited {
 #column-left {
     width: 48%;
     height: 350px;
-    margin: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
     background: url(http://source.unsplash.com/FO7JIlwjOtU);
     float: left;
+}
+
+#column-left-row2 {
+    width: 48%;
+    height: 350px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background: url(http://source.unsplash.com/w7ZyuGYNpRQ);
+    float: left;
+}
+
+#column-right-row2 {
+    width: 48%;
+    height: 350px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background: url(http://source.unsplash.com/C9k1LfbM23M);
+    float: right;
 }
 
 
